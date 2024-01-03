@@ -100,7 +100,7 @@ namespace TextRPG
         static void CreateRandomMonster(out SMonster monster)
         {
             Random random = new Random();
-            int randMonster = random.Next(1, 4);
+            int randMonster = random.Next(1, 6);
 
             switch (randMonster)
             {
